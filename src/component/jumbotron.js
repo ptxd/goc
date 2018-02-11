@@ -6,7 +6,6 @@ class Jumbotron extends Component {
         return (
             <Container fluid>
                 <div className="jumbotron">
-                    
                     <div className="guild-image">
                         <ul>
                             <li></li>
@@ -17,6 +16,7 @@ class Jumbotron extends Component {
                             {/* <div className="last-li"><img src={require('../images/Guild Icon text white.png')} width="160" height="160" alt="Guild of Cryptocurrencies Logo"/></div> */}
                         </ul>   
                     </div>
+                    <p className="tagline">GUILD OF CRYPTOCURRENCIES</p>
                 </div>
             </Container>
         )
