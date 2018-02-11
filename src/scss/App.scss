@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Barlow|Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Cormorant');
+
+$gold: rgb(212,175,55);
 
 .App {
  width:100%;
@@ -30,7 +33,7 @@ Start of Jumbotron
   // background: #1b1c1d;
   // color: rgba(255,255,255,.9);
   background-color: rgba(8,8,8,1.0);
-  height:60em;
+  height:80vh;
   width:100%;
 }
 
@@ -208,6 +211,13 @@ Start of Jumbotron
   }
 }
 
+.tagline{
+  margin-top:22.5%;
+  color:$gold;
+  text-align: center;
+  font-size: 1.5em;
+  font-family: 'Cormorant', serif;
+}
 
 /******************************************************************************
 End of Jumbotron
