@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Barlow|Montserrat');
 @import url('https://fonts.googleapis.com/css?family=Cormorant');
 
-$gold: rgb(212,175,55);
+$gold: rgba(212,175,55,1.0);
+$goldenrod:	rgba(218,165,32,1.0);
+$oldgold:rgba(207,181,59,1.0);
+$lightgold:	rgb(255,215,0);
+$vegasgold:	rgb(197,179,88);
+$majorgold:rgb(245, 203, 90);
+$dirtygold:rgb(172, 118, 54);
 
 .App {
  width:100%;
@@ -19,7 +25,7 @@ header{
   }
   a{
     margin-right: 3em;
-    color: rgb(212,175,55);
+    color: rgba(212,175,55,1.0);
   }
 }
 /******************************************************************************
@@ -221,4 +227,46 @@ Start of Jumbotron
 
 /******************************************************************************
 End of Jumbotron
+******************************************************************************/
+
+/******************************************************************************
+Start of HomeBody
+******************************************************************************/
+
+.hiw-header{
+  color:$dirtygold;
+  font-size: 3.0em;
+  font-family: 'Cormorant', serif;
+  text-align: justify;
+}
+
+
+.hiw-p1{
+  color:$dirtygold;
+  font-size: 1.5em;
+  font-family: 'Cormorant', serif;
+  text-align: justify;
+}
+
+.hiw-image{
+  img{
+    margin-top:5em;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************************************************************************
+End of HomeBody
 ******************************************************************************/

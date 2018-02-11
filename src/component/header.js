@@ -12,7 +12,8 @@ class HeaderComponent extends Component {
                     <img src={require('../images/black text.svg')} width='50' height ='50' alt="Guild of Cryptocurrencies logo"/>
                   </Menu.Item>
                   <Menu.Item><Link to="/">Home</Link></Menu.Item>
-                  <Menu.Item><Link to="/domain">Buy Domain</Link></Menu.Item>
+                  <Menu.Item><Link to="/buydomain">Buy Domain</Link></Menu.Item>
+                  <Menu.Item><Link to="/contactus">Contact Us</Link></Menu.Item>
                 </Menu>
               </Container>
         )
